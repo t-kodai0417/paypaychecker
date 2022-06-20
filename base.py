@@ -15,7 +15,6 @@ def check_price(code,guild_id):
     #https://pay.paypay.ne.jp/bUjj9yOp
     aaaaaa=requests.get(f"https://www.paypay.ne.jp/app/v2/p2p-api/getP2PLinkInfo?verificationCode={code}&client_uuid={client_uuid}",headers=getp2pinfo)
     dataf=aaaaaa.json()
-    return(dataf["payload"]["pendingP2PInfo"]["amount"])
-    #SUCCESS
-    #Cannot
-    #あり,なし
+    #値段 dataf["payload"]["pendingP2PInfo"]["amount"]
+    with open('test.json', 'w') as f:
+        json.dump(dataf, f, ensure_ascii=False, indent=4)
