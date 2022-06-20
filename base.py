@@ -15,6 +15,7 @@ def check_price(code):
     aaaaaa=requests.get(f"https://www.paypay.ne.jp/app/v2/p2p-api/getP2PLinkInfo?verificationCode={code}&client_uuid={client_uuid}",headers=getp2pinfo)
     dataf=aaaaaa.json()
     #値段 dataf["payload"]["pendingP2PInfo"]["amount"]
+    #orderStatus dataf["payload"]["orderStatus"]
     with open('test.json', 'w') as f:
         json.dump(dataf, f, ensure_ascii=False, indent=4)
 check_price("bUjj9yOp")
