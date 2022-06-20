@@ -7,3 +7,6 @@ try:
 except:
   print("読み込めませんでした。")
   exit()
+hozon=input("workedなリンクの保存先を入力してください。\n拡張子は入力しなくてよいです。\n>>")
+for i in paylink:
+  paybase
