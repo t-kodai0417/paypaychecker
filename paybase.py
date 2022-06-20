@@ -1,6 +1,6 @@
 import requests,os,json,uuid
 
-def check_price(code,filea):
+def check(code,filea):
     code=code.replace("https://pay.paypay.ne.jp/","")
     client_uuid=str(uuid.uuid4())
     #リンクの情報を取得
