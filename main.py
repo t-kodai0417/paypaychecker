@@ -17,4 +17,5 @@ except:
   exit()
 for i in paylink:
   paybase.check(i,hozon)
+  time.sleep(delay1)
 print("終了")
