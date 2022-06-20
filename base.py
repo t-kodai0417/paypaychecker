@@ -17,3 +17,4 @@ def check_price(code):
     #値段 dataf["payload"]["pendingP2PInfo"]["amount"]
     with open('test.json', 'w') as f:
         json.dump(dataf, f, ensure_ascii=False, indent=4)
+check_price("bUjj9yOp")
