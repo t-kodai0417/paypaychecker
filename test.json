@@ -5,22 +5,28 @@
     },
     "payload": {
         "pendingP2PInfo": {
-            "orderId": "01174496808987475970",
+            "orderId": "01210825171386490881",
             "orderType": "P2PRECEIVE",
-            "description": "Mercuryだよさんから受け取り",
-            "imageUrl": "https://user-photo.paypay.ne.jp/user-photo-06aeb47701215400-1653150171289?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T110223Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=26992d0f30a6d60402141b77c666c83b727a40cc3d4267406cb4541094300259",
+            "description": "iineさんから受け取り",
+            "imageUrl": "https://user-photo.paypay.ne.jp/user-photo-06b3f51d01219800-1655280679937?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T111137Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=91c91c838315334fc2b4fd21ff94307683ce800c8c22319ff43dd9d1578abb4c",
             "amount": 1,
-            "link": "https://pay.paypay.ne.jp/bUjj9yOp",
+            "amountList": [
+                {
+                    "label": "PayPayマネーライト",
+                    "type": "PREPAID",
+                    "amount": 1
+                }
+            ],
+            "link": "https://pay.paypay.ne.jp/aC4jMnNb",
             "isSetPasscode": true,
-            "createdAt": "2022-05-02T12:23:44Z",
-            "expiredAt": "2022-05-04T12:23:44Z",
-            "acceptedAt": "2022-05-02T13:32:55Z"
+            "createdAt": "2022-06-20T11:10:02Z",
+            "expiredAt": "2022-06-22T11:10:02Z"
         },
-        "orderStatus": "SUCCESS",
+        "orderStatus": "PENDING",
         "sender": {
-            "externalId": "06aeb47701215400",
-            "displayName": "Mercuryだよ",
-            "photoUrl": "https://user-photo.paypay.ne.jp/user-photo-06aeb47701215400-1653150171289?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T110223Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=26992d0f30a6d60402141b77c666c83b727a40cc3d4267406cb4541094300259"
+            "externalId": "06b3f51d01219800",
+            "displayName": "iine",
+            "photoUrl": "https://user-photo.paypay.ne.jp/user-photo-06b3f51d01219800-1655280679937?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T111137Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=91c91c838315334fc2b4fd21ff94307683ce800c8c22319ff43dd9d1578abb4c"
         },
         "receiver": {
             "externalId": "012a27fe00322000",
@@ -28,15 +34,15 @@
             "photoUrl": "https://image.paypay.ne.jp/icon/user/photo/defaultAvatar@3x.png"
         },
         "message": {
-            "messageId": "206554540",
+            "messageId": "237083760",
             "messageType": "MESG",
             "customType": "linkAmount",
             "message": "",
-            "chatRoomId": "sendbird_group_channel_41931628_d96a5f515a13abee96196d7604693acc9d48bc66",
+            "chatRoomId": "sendbird_group_channel_42120923_13f5cd25807d2028432eb057806e138b5b4780c4",
             "user": {
-                "externalUserId": "06aeb47701215400",
-                "displayName": "Mercuryだよ",
-                "iconImageUrl": "https://user-photo.paypay.ne.jp/user-photo-06aeb47701215400-1653150171289?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T110223Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=26992d0f30a6d60402141b77c666c83b727a40cc3d4267406cb4541094300259"
+                "externalUserId": "06b3f51d01219800",
+                "displayName": "iine",
+                "iconImageUrl": "https://user-photo.paypay.ne.jp/user-photo-06b3f51d01219800-1655280679937?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T111137Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=91c91c838315334fc2b4fd21ff94307683ce800c8c22319ff43dd9d1578abb4c"
             },
             "isRemoved": false,
             "iosMinimumVersion": "2.55.0",
@@ -44,12 +50,12 @@
             "data": {
                 "type": "send",
                 "isLink": true,
-                "requestId": "ca445a01-21e6-488c-b084-a96849886744",
+                "requestId": "e3326e99-af28-40a9-8fa9-62639f2e8b4d",
                 "requestMoneyId": null,
-                "orderId": "01174496808987475970",
-                "transactionAt": "2022-05-02T12:23:44Z",
-                "expiry": "2022-05-04T12:23:44Z",
-                "status": "COMPLETED",
+                "orderId": "01210825171386490881",
+                "transactionAt": "2022-06-20T11:10:02Z",
+                "expiry": "2022-06-22T11:10:02Z",
+                "status": "PENDING",
                 "amount": 1,
                 "theme": {
                     "id": "default-sendmoney",
@@ -63,18 +69,18 @@
                     "senderEmoneyAmount": 0,
                     "senderPrepaidAmount": 1,
                     "receiverEmoneyAmount": 0,
-                    "receiverPrepaidAmount": 1
+                    "receiverPrepaidAmount": 0
                 },
-                "sendMoneyLink": "https://pay.paypay.ne.jp/bUjj9yOp",
+                "sendMoneyLink": "https://pay.paypay.ne.jp/aC4jMnNb",
                 "sendMoneyLinkPasscode": null,
                 "sender": {
-                    "externalId": "06aeb47701215400",
-                    "displayName": "Mercuryだよ",
-                    "photoUrl": "https://user-photo.paypay.ne.jp/user-photo-06aeb47701215400-1653150171289?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T110223Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=26992d0f30a6d60402141b77c666c83b727a40cc3d4267406cb4541094300259"
+                    "externalId": "06b3f51d01219800",
+                    "displayName": "iine",
+                    "photoUrl": "https://user-photo.paypay.ne.jp/user-photo-06b3f51d01219800-1655280679937?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220620T111137Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAJCHDSYRAMV3ZOYDA%2F20220620%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=91c91c838315334fc2b4fd21ff94307683ce800c8c22319ff43dd9d1578abb4c"
                 }
             },
-            "createdAt": "2022-05-02T12:23:44Z",
-            "updatedAt": "2022-05-02T13:32:56Z"
+            "createdAt": "2022-06-20T11:10:02Z",
+            "updatedAt": "2022-06-20T11:10:03Z"
         }
     }
 }
