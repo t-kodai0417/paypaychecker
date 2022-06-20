@@ -32,4 +32,4 @@ def check_price(code,filea):
     #値段 dataf["payload"]["pendingP2PInfo"]["amount"]
     #orderStatus dataf["payload"]["orderStatus"] PENDING
     
-check_price("https://pay.paypay.ne.jp/aC4jMnNa")
+check_price("https://pay.paypay.ne.jp/aC4jMnNa","test")
