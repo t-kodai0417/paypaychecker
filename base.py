@@ -6,6 +6,7 @@ headers = {
     }
 
 def check_price(code):
+    code=code.replace("https://pay.paypay.ne.jp/","")
     client_uuid=str(uuid.uuid4())
     #リンクの情報を取得
     getp2pinfo={
@@ -18,4 +19,4 @@ def check_price(code):
     #orderStatus dataf["payload"]["orderStatus"]
     with open('test.json', 'w') as f:
         json.dump(dataf, f, ensure_ascii=False, indent=4)
-check_price("bUjj9yOp")
+check_price("https://pay.paypay.ne.jp/aC4jMnNb")
