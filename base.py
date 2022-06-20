@@ -5,7 +5,7 @@ headers = {
     'Content-Type' : 'application/json'
     }
 
-def check_price(code,guild_id):
+def check_price(code):
     client_uuid=str(uuid.uuid4())
     #リンクの情報を取得
     getp2pinfo={
