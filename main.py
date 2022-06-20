@@ -4,6 +4,7 @@ txt_name=input("チェックするリンクが入ったtxtファイルを指定�
 try:
   f=open(txt_name,"r")
   paylink=f.read().split('\n')
+  print(paylink)
   f.close()
 except:
   print("読み込めませんでした。")
