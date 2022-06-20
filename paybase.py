@@ -13,9 +13,12 @@ def check(code,filea):
     try:
         if dataf["payload"]["orderStatus"]=="PENDING":
             print(f"[+]https://pay.paypay.ne.jp/{code}")
-            f = open(f"{filea}.txt", 'r', encoding='utf-8')
-            aaa=f.read()
-            f.close()
+            try:
+                f = open(f"{filea}.txt", 'r', encoding='utf-8')
+                aaa=f.read()
+                f.close()
+            except:
+                aaa=""
             f = open(f"{filea}.txt", 'a', encoding='utf-8')
             if aaa=="":
                 f.write(f"https://pay.paypay.ne.jp/{code}")
