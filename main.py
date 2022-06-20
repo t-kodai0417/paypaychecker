@@ -11,7 +11,7 @@ except:
   print("読み込めませんでした。")
   exit()
 hozon=input("workedなリンクの保存先を入力してください。\n拡張子は入力しなくてよいです。\n>>")
-delay1=input("Delayを入力してください。\nおすすめは3です。0にするとIPが死ぬかも？\n>>")
+delay1=input("Delayを入力してください。\nおすすめは3です(秒)。0にするとIPが死ぬかも？\n>>")
 try:
   delay1=int(delay1)
 except:
