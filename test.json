@@ -1,9 +1,0 @@
-{
-    "header": {
-        "resultCode": "S5000",
-        "resultMessage": "It was received unexpected error from the remote server. [Cannot find P2P link]"
-    },
-    "error": {
-        "backendResultCode": "02100003"
-    }
-}
