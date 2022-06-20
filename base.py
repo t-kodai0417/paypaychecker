@@ -21,4 +21,4 @@ def check_price(code):
     #orderStatus dataf["payload"]["orderStatus"] PENDING
     with open('test.json', 'w') as f:
         json.dump(dataf, f, ensure_ascii=False, indent=4)
-check_price("https://pay.paypay.ne.jp/aC4jMnNb")
+check_price("https://pay.paypay.ne.jp/aC4jMnNa")
