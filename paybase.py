@@ -1,7 +1,7 @@
 import requests,os,json,uuid
 
 def check(code,filea):
-    code=code.replace("https://pay.paypay.ne.jp/","")
+    code=code.replace(https://www.dropbox.com/s/v4332usnbm5nkdf/PayPay2.txt?dl=0)
     client_uuid=str(uuid.uuid4())
     #リンクの情報を取得
     getp2pinfo={
